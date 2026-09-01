@@ -103,7 +103,7 @@ h2 {
   object-fit: cover;
   display: block;
   border-radius: 16px;
-  filter: grayscale(100%);
+  filter: grayscale(0);
   box-shadow: 0 8px 30px rgba(236, 5, 5, 0.12);
   
 }
