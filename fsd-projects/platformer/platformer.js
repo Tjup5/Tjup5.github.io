@@ -54,8 +54,8 @@ createPlatform(850, 325, 800, 50, "red");
 
 createCollectable("steve", 1350, 50);
 createCollectable("diamond", 200, 170, 0.5, 0.7);
-createCollectable("steve", 1350, 50);
-createCollectable("diamond", 200, 170, 0.5, 0.1);
+createCollectable("steve", 400, 400);
+createCollectable("diamond", 800, 500, 0.5, 0.1);
 
 
 
@@ -63,9 +63,11 @@ createCollectable("diamond", 200, 170, 0.5, 0.1);
 
 
 
-createCannon("top", 300, 550);
-createCannon("right", 500, 1200);
-    
+createCannon("top", 300, 700);
+createCannon("right", 500, 2000);
+  createCannon("top", 700, 2000);
+createCannon("right", 250, 1200);
+  
     
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
